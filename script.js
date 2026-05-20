@@ -679,19 +679,3 @@ downloadBtn.addEventListener("click", function(){
 
 });
 
-const video = document.querySelector(".restaurant-video");
-
-video.addEventListener("click", (e) => {
-
-  // Ignore clicks on native controls
-  if (e.target.closest("video")) {
-
-    if (video.paused) {
-      video.play();
-    } else {
-      video.pause();
-    }
-
-  }
-
-});
