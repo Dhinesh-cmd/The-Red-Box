@@ -1,0 +1,822 @@
+<!-- =========================
+FILE: index.html
+========================= -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>THE RED BOX – Kancheepuram</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+
+
+</head>
+
+<body>
+
+
+  <!-- =========================
+  FLOATING ELEMENTS
+  ========================= -->
+  <div class="floating-particles"></div>
+
+  <div class="lantern lantern1"></div>
+  <div class="lantern lantern2"></div>
+
+  <!-- =========================
+  HEADER
+  ========================= -->
+
+  <header id="header">
+
+    <nav class="navbar">
+
+      <div class="logo">
+        <img src="assets/logo.png">
+      </div>
+
+      <ul class="nav-links">
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+  <!-- =========================
+  HERO SECTION
+  ========================= -->
+
+  <section class="hero" id="home">
+
+    <div class="hero-glow hero-glow1"></div>
+    <div class="hero-glow hero-glow2"></div>
+
+    <div class="hero-container">
+
+      <!-- LEFT -->
+      <div class="hero-left">
+
+        <div class="hero-badge">
+          🔥 Premium Indo-Chinese Restaurant
+        </div>
+
+        <h1>
+          The
+          <span>Red Box</span>
+        </h1>
+
+        <p>
+          Experience cinematic dining, luxury ambience,
+          and authentic Indo-Chinese flavours in Kancheepuram.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#menu" class="primary-btn">
+            View Menu
+          </a>
+
+          <a href="#order" class="secondary-btn">
+            Order Online
+          </a>
+        </div>
+
+        <div class="hero-info">
+
+          <div class="info-card">
+            <h3>4.8★</h3>
+            <span>Google Rating</span>
+          </div>
+
+          <div class="info-card">
+            <h3>10K+</h3>
+            <span>Customers</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- RIGHT -->
+      <div class="hero-right">
+
+        <div class="hero-image-main">
+          <img src="assets/ambiance-2.webp">
+        </div>
+
+        <!-- <div class="floating-card floating-card1">
+          <img src="assets/ambiance-2.webp">
+        </div>
+
+        <div class="floating-card floating-card2">
+          <img src="assets/ambiance-3.webp">
+        </div> -->
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- =========================
+ABOUT SECTION
+========================= -->
+
+  <section class="about-section" id="about">
+
+    <!-- TOP INFO BAR -->
+    <div class="about-top-bar">
+
+      <div class="top-bar-item">
+        <i class="fa-regular fa-envelope"></i>
+        <a href="mailto:theredbox@email.com">
+          theredbox@email.com
+        </a>
+      </div>
+
+      <div class="top-bar-item">
+        <i class="fa-solid fa-phone"></i>
+        <a href="tel:044-47668111">
+          044-47668111
+        </a>
+      </div>
+
+      <div class="top-bar-item">
+        <i class="fa-regular fa-clock"></i>
+        <span>Daily 11am - 11pm</span>
+      </div>
+
+    </div>
+
+    <!-- FEATURES -->
+    <div class="about-features">
+
+      <div class="about-feature-card reveal fade-up">
+
+        <div class="feature-icon">
+          <i class="fa-solid fa-motorcycle"></i>
+        </div>
+
+        <h3>Fast Delivery</h3>
+
+        <p>
+          Fresh and hot Indo-Chinese dishes delivered quickly to your doorstep.
+        </p>
+
+      </div>
+
+      <div class="about-feature-card reveal">
+
+        <div class="feature-icon">
+          <i class="fa-solid fa-shield-heart"></i>
+        </div>
+
+        <h3>Clean & Safe</h3>
+
+        <p>
+          We follow strict hygiene and food safety standards for every order.
+        </p>
+
+      </div>
+
+      <div class="about-feature-card reveal">
+
+        <div class="feature-icon">
+          <i class="fa-solid fa-leaf"></i>
+        </div>
+
+        <h3>Fresh Ingredients</h3>
+
+        <p>
+          Every dish is prepared using premium quality fresh ingredients.
+        </p>
+
+      </div>
+
+    </div>
+
+    <!-- STORY -->
+    <div class="story-container">
+
+      <!-- LEFT IMAGE -->
+      <div class="story-image reveal slide-left">
+
+        <div class="image-border"></div>
+
+        <img id="autoStoryImage" src="assets/ambiance-main.webp">
+
+      </div>
+
+      <!-- RIGHT CONTENT -->
+      <div class="story-content reveal slide-right">
+
+        <span class="story-tag">
+          OUR STORY
+        </span>
+
+        <h2>
+          Bringing Premium Indo-Chinese
+          Dining Experience
+        </h2>
+
+        <p>
+          THE RED BOX was created with a passion to deliver cinematic ambience,
+          unforgettable flavours, and authentic Indo-Chinese cuisine in Kancheepuram.
+        </p>
+
+        <p>
+          From signature Dragon Chicken to flavour-packed noodles and fried rice,
+          every dish is crafted with perfection, freshness, and premium taste.
+        </p>
+
+        <a href="#menu" class="story-btn">
+          Explore Menu
+        </a>
+
+      </div>
+
+    </div>
+
+    <!-- =========================
+WHY CHOOSE US
+PREMIUM LUXURY SECTION
+========================= -->
+
+    <section class="why-choose section" id="why-choose">
+
+      <!-- BACKGROUND GLOWS -->
+      <div class="why-bg why-bg1"></div>
+      <div class="why-bg why-bg2"></div>
+
+      <!-- FLOATING PARTICLES -->
+      <div class="why-particles"></div>
+
+      <div class="section-title reveal">
+        <span class="mini-title">WHY PEOPLE LOVE US</span>
+        <h2>Luxury Dining Experience</h2>
+        <p>
+          Experience premium Indo-Chinese dining with authentic flavours,
+          elegant ambience, and exceptional service crafted for unforgettable moments.
+        </p>
+      </div>
+    </section>
+
+  </section>
+
+
+  <!-- =========================
+CUSTOMER FAVORITES SLIDER
+========================= -->
+
+  <section class="food-slider-section reveal fade-up">
+
+    <h1 class="food-slider-heading" style="text-align: center;">Loved By Our Customers</h1>
+
+    <div class="food-slider-container">
+
+
+
+      <!-- RIGHT SIDE -->
+      <div class="food-slider-right">
+
+        <div class="circle-bg"></div>
+
+        <div class="food-images">
+
+          <div class="food-card active">
+            <img src="https://images.unsplash.com/photo-1562967916-eb82221dfb92?q=80&w=1200&auto=format&fit=crop"
+              alt="">
+          </div>
+
+          <div class="food-card next">
+            <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?q=80&w=1200&auto=format&fit=crop"
+              alt="">
+          </div>
+
+          <div class="food-card prev">
+            <img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?q=80&w=1200&auto=format&fit=crop"
+              alt="">
+          </div>
+
+        </div>
+
+        <!-- BUTTONS -->
+        <div class="slider-buttons">
+
+          <button class="slide-btn" id="prevSlide">
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+
+          <button class="slide-btn" id="nextSlide">
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+
+        </div>
+
+      </div>
+
+      <!-- LEFT SIDE -->
+      <div class="food-slider-left">
+
+        <span class="food-tag">
+          CUSTOMER FAVORITES ❤️
+        </span>
+
+        <h2 class="food-title">
+          Loved By Our Customers
+        </h2>
+
+        <p class="food-description" id="foodDescription">
+          Crispy chicken wings tossed in premium sauces with rich flavours and perfect spices.
+        </p>
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- =========================
+  MENU SECTION
+  ========================= -->
+  <section class="menu section" id="menu">
+
+    <div class="section-title reveal fade-up">
+      <h2>Explore Our Menu</h2>
+      <p style="margin-bottom: 10px;">Premium flavours crafted for every foodie.</p>
+    </div>
+
+    <div class="menu-tabs">
+      <button class="tab active" data-filter="all">All</button>
+      <button class="tab" data-filter="starters">Starters</button>
+      <button class="tab" data-filter="soups">Soups</button>
+      <button class="tab" data-filter="noodles">Noodles</button>
+      <button class="tab" data-filter="rice">Fried Rice</button>
+      <button class="tab" data-filter="momos">Momos</button>
+      <button class="tab" data-filter="beverages">Beverages</button>
+    </div>
+
+    <div class="menu-grid reveal zoom-jump">
+
+      <div class="menu-item starters reveal zoom-jump">
+        <img src="assets/chicken-lolipop.webp" alt="">
+        <h3>Chicken Lollipop</h3>
+      </div>
+
+      <div class="menu-item soups reveal zoom-jump">
+        <img src="assets/soup.webp" alt="">
+        <h3>Hot & Sour Soup</h3>
+      </div>
+
+      <div class="menu-item noodles reveal zoom-jump">
+        <img src="assets/singapore-noodles.webp" alt="">
+        <h3>Singapore Noodles</h3>
+      </div>
+
+      <div class="menu-item rice reveal zoom-jump">
+        <img src="assets/fried-rice.webp" alt="">
+        <h3>Garlic Fried Rice</h3>
+      </div>
+
+      <div class="menu-item momos reveal zoom-jump">
+        <img src="assets/momos.webp" alt="">
+        <h3>Chicken Momos</h3>
+      </div>
+
+      <div class="menu-item beverages reveal zoom-jump">
+        <img src="assets/pulpi-grage.webp" alt="">
+        <h3>Pulpi Grape Juice</h3>
+      </div>
+
+    </div>
+
+    <div class="menu-btn-wrap">
+      <a href="assets/RED-BOX-FOOD-MENU.pdf" download class="primary-btn" id="downloadBtn">
+        Download Full Menu
+      </a>
+    </div>
+
+    <div class="download-popup" id="downloadPopup">
+      Menu Downloaded Successfully ✓
+    </div>
+
+  </section>
+
+
+
+  <!-- =========================
+  ACHIEVEMENTS
+  ========================= -->
+  <section class="achievements section" id="achievements">
+
+    <div class="section-title reveal fade-up">
+      <h2>Achievements</h2>
+    </div>
+
+    <div class="award-badge-container reveal fade-up">
+      <div class="award-badge">
+        <i class="fa-solid fa-award"></i>
+        <span>Swiggy Award Winner - Best Chinese Restaurant</span>
+      </div>
+    </div>
+
+    <div class="award-wrapper reveal">
+
+      <!-- AWARD IMAGE -->
+      <div class="award-image-box">
+        <img src="assets/award-frame.png" alt="Swiggy Award">
+      </div>
+
+      <!-- CLOUD DESCRIPTION -->
+      <div class="award-cloud">
+
+        <!-- CLOUD BOX -->
+        <div class="cloud-border">
+
+
+          <p>
+            Recognized as one of the best Chinese restaurants
+            for delivering premium taste, quality service,
+            and unforgettable dining experiences.
+            The Red Box continues to win hearts with
+            authentic flavors and customer satisfaction.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- =========================
+RESTAURANT EXPERIENCE
+========================= -->
+  <section class="experience-section section">
+
+    <div class="experience-container reveal">
+
+      <!-- LEFT VIDEO -->
+      <div class="experience-video">
+
+        <video playsinline controls>
+          <source src="assets/Restarunt-exprience.mp4" type="video/mp4">
+        </video>
+
+        <!-- Glow -->
+        <div class="video-light"></div>
+
+      </div>
+
+      <!-- RIGHT CONTENT -->
+      <div class="experience-content">
+
+        <span class="experience-tag">
+          PREMIUM EXPERIENCE ⭐
+        </span>
+
+        <h2>
+          Feel The Real <span>Luxury Dining</span> Experience
+        </h2>
+
+        <!-- FEATURES -->
+        <div class="experience-features">
+
+          <div class="feature-box">
+            <i class="fa-solid fa-utensils"></i>
+            <div>
+              <h4>Fresh Food</h4>
+              <span>Made Everyday</span>
+            </div>
+          </div>
+
+          <div class="feature-box">
+            <i class="fa-solid fa-pepper-hot"></i>
+            <div>
+              <h4>Spicy Flavours</h4>
+              <span>Authentic Taste</span>
+            </div>
+          </div>
+
+          <div class="feature-box">
+            <i class="fa-solid fa-champagne-glasses"></i>
+            <div>
+              <h4>Premium Ambience</h4>
+              <span>Luxury Feel</span>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+  ORDER SECTION
+  ========================= -->
+  <section class="order section" id="order">
+
+    <div class="section-title">
+      <h2>Order Online</h2>
+    </div>
+
+    <div class="order-grid">
+
+      <div class="order-card reveal bounce-corner">
+        <i class="fa-solid fa-bag-shopping"></i>
+        <h3>Swiggy</h3>
+        <a href="https://www.swiggy.com/city/kanchipuram/the-red-box-vilakkadi-koil-street-kancheepuram-rest647322"
+          target="_blank" class="order-btn swigy-btn">
+          Order Now
+        </a>
+      </div>
+
+      <div class="order-card reveal bounce-corner">
+        <i class="fa-solid fa-utensils"></i>
+        <h3>Zomato</h3>
+        <a href="https://www.zomato.com/kanchipuram/the-red-box-kanchipuram-locality/order" target="_blank"
+          class="order-btn zomato-btn">
+          Order Now
+        </a>
+      </div>
+
+      <div class="order-card reveal bounce-corner">
+        <i class="fa-brands fa-whatsapp"></i>
+        <h3>WhatsApp</h3>
+        <a href="https://wa.me/918248921905?text=Hello%20The%20Red%20Box" target="_blank"
+          class="order-btn WhatsApp-btn">
+          Order Now
+        </a>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="reviews-luxury section" id="reviews">
+
+    <div class="section-title reveal fade-up">
+      <h2>Customer Voices</h2>
+    </div>
+
+    <div class="reviews-wrapper reveal fade-scale">
+
+      <div class="review-slide active">
+
+        <div class="review-left">
+          <img src="assets/person-2.webp">
+        </div>
+
+        <div class="review-right">
+          <i class="fa-solid fa-quote-left"></i>
+
+          <p>
+            One of the best Chinese restaurants in Kancheepuram.
+            Dragon chicken was absolutely fire.
+          </p>
+
+          <h3>Arjun Kumar</h3>
+          <span>Food Blogger</span>
+        </div>
+
+      </div>
+
+      <div class="review-slide">
+
+        <div class="review-left">
+          <img src="assets/person-1.jpg">
+        </div>
+
+        <div class="review-right">
+          <i class="fa-solid fa-quote-left"></i>
+
+          <p>
+            Premium ambience, luxury lighting and amazing service.
+            Perfect place for family dinner.
+          </p>
+
+          <h3>Keerthana</h3>
+          <span>Customer</span>
+        </div>
+
+      </div>
+
+      <div class="review-slide">
+
+        <div class="review-left">
+          <img src="assets/person-4.jpg">
+        </div>
+
+        <div class="review-right">
+          <i class="fa-solid fa-quote-left"></i>
+
+          <p>
+            Fried rice and noodles were incredible.
+            Staff were very friendly and fast.
+          </p>
+
+          <h3>Vishal</h3>
+          <span>Regular Customer</span>
+        </div>
+
+      </div>
+
+      <div class="review-slide">
+
+        <div class="review-left">
+          <img src="assets/person-3.jpg">
+        </div>
+
+        <div class="review-right">
+          <i class="fa-solid fa-quote-left"></i>
+
+          <p>
+            Beautiful luxury interior with rich dining experience.
+            Loved every minute here.
+          </p>
+
+          <h3>Harini</h3>
+          <span>Food Lover</span>
+        </div>
+
+      </div>
+
+      <!-- Dots -->
+
+      <div class="luxury-dots">
+        <span class="lux-dot active"></span>
+        <span class="lux-dot"></span>
+        <span class="lux-dot"></span>
+        <span class="lux-dot"></span>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- =========================
+  CONTACT
+  ========================= -->
+  <section class="contact section reveal fade-up" id="contact">
+
+    <div class="section-title">
+      <h2>Contact Us</h2>
+    </div>
+
+    <div class="contact-container">
+
+      <div class="contact-info reveal">
+
+        <div class="info-box">
+
+          <i class="fa-solid fa-location-dot"></i>
+
+          <div class="address-content">
+
+            <p>
+              ARYAN FOODS, 88, Vilakadi Koil Street,
+              Kancheepuram, Tamil Nadu 631501
+            </p>
+
+            <a href="https://www.google.com/maps/place/The+Red+Box+-+Kancheepuram/@12.8238724,79.7038052,17z/data=!3m1!4b1!4m6!3m5!1s0x3a52c326d4565ea7:0x55377971fc1c76a9!8m2!3d12.8238672!4d79.7063801!16s%2Fg%2F11s5grs3rz?entry=ttu&g_ep=EgoyMDI2MDUxMy4wIKXMDSoASAFQAw%3D%3D"
+              target="_blank" class="google-map">
+
+              <img class="google-map" src="assets/google-map img.png" alt="">
+
+            </a>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="info-box">
+          <i class="fa-solid fa-phone"></i>
+
+          <a href="tel:044-47668111">
+            044-47668111
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+
+        <div class="info-box">
+          <i class="fa-solid fa-envelope"></i>
+
+          <a href="mailto:theredbox@email.com">
+            theredbox@email.com
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+
+        <div class="info-box">
+          <i class="fa-solid fa-clock"></i>
+          <p>11:00 AM – 11:00 PM</p>
+        </div>
+
+        <div class="socials">
+          <a href="https://www.instagram.com/theredboxkpm/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://wa.me/918248921905" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+      </div>
+
+      <div class="contact-form reveal">
+
+        <form id="form">
+
+          <input type="text" name="user_name" placeholder="Your Name" required>
+
+          <input type="email" name="user_email" placeholder="Email Address" required>
+
+          <textarea rows="5" name="message" placeholder="Message"></textarea>
+
+          <button type="submit">
+            Send Message
+          </button>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- =========================
+  FOOTER
+  ========================= -->
+  <footer class="footer">
+
+    <div class="footer-logo">
+      THE RED BOX
+    </div>
+
+    <div class="footer-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </div>
+
+    <div class="footer-socials">
+      <a href="https://www.instagram.com/theredboxkpm/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://wa.me/918248921905" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+
+    <p>
+      © 2026 THE RED BOX – Kancheepuram. All Rights Reserved.
+    </p>
+
+  </footer>
+
+  <!-- SCROLL TO TOP -->
+
+  <button class="scroll-top" id="scrollTop">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="script.js"></script>
+
+
+
+
+</body>
+
+</html>
