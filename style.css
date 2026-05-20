@@ -2175,6 +2175,16 @@ VIDEO SIDE
   animation:pulseLight 4s infinite ease-in-out;
 }
 
+.restaurant-video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  display: block;
+}
+
+
+
 /* =========================
 CONTENT SIDE
 ========================= */
